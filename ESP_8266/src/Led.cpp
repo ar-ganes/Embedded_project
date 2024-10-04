@@ -1,4 +1,4 @@
-#include <Arduino.h>
+/*#include <Arduino.h>
 #include <ESP8266WiFi.h>
 
 // Define GPIO pins for the LEDs
@@ -65,4 +65,4 @@ void loop() {
   if (currentMillis % 1000 < 50) {
     Serial.println("Blinking LEDs...");
   }
-}
+}*/
