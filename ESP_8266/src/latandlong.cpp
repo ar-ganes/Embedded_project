@@ -14,8 +14,8 @@ ESP8266WebServer server(80);
 TinyGPSPlus gps;
 
 // Latitude and Longitude variables
-double latitude = 0.0;
-double longitude = 0.0;
+double latitude = 37.7749;
+double longitude = -122.4194;
 
 // SoftwareSerial setup for GPIO4 and GPIO5
 SoftwareSerial ss(4, 5);  // RX = GPIO4, TX = GPIO5
